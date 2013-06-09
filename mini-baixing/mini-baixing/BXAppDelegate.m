@@ -10,12 +10,18 @@
 
 #import "CategoryViewController.h"
 
+#define kApiKey         @""
+#define kApiSecret      @""
+
+#error please set api key
+
 @implementation BXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-
+    [[BXConfig sharedInstance] setApiKey:kApiKey];
+    [[BXConfig sharedInstance] setApiSecret:kApiSecret];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
