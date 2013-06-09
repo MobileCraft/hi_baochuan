@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (1.3.0)
+  - CocoaLumberjack (1.6.2)
+  - EGOCache (2.0)
+  - JSONKit (1.5pre)
+  - MBProgressHUD (0.6)
+  - PonyDebugger (0.3.0):
+    - SocketRocket
+  - Reachability (3.1.0)
+  - SDWebImage (2.7.4):
+    - SDWebImage/Main
+  - SDWebImage/Main (2.7.4)
+  - SocketRocket (0.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 1.1)
+  - CocoaLumberjack (~> 1.6)
+  - EGOCache (~> 2.0)
+  - JSONKit
+  - MBProgressHUD (~> 0.6)
+  - PonyDebugger
+  - Reachability (~> 3.1)
+  - SDWebImage (~> 2.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: e528f20d06b1b818c3571266fb5efa20031a8ace
+  CocoaLumberjack: d73e1e317ced14ab930797dda6c17156ff17aaa1
+  EGOCache: c7116e8a6692eecb542f001a9c71f9b71ae9644b
+  JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
+  MBProgressHUD: 9b55a90566fb5d07df0602f6fd9fa04510ad5d52
+  PonyDebugger: 72c2277c30f247390116ae328fe24082e0ed558e
+  Reachability: ba94ecd4eaa037be3d0588b38956672588530c5b
+  SDWebImage: 06f076026fe7867ab0100fce95d943f7bff981eb
+  SocketRocket: bca43a94bd9aac3a629df42c06843402399ee67b
+
+COCOAPODS: 0.20.2
