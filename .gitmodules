@@ -1,3 +1,6 @@
 [submodule "mini-baixing/baochuan"]
 	path = mini-baixing/baochuan
 	url = git@github.com:baixing/baochuan.git
+[submodule "baochuan"]
+	path = baochuan
+	url = git@github.com:baixing/baochuan.git

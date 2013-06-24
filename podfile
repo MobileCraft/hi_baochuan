@@ -1,0 +1,20 @@
+workspace 'Hi-Baochuan.xcworkspace'
+
+target 'Baochuan' do 
+	xcodeproj 'baochuan/Source/Baochuan.xcodeproj'
+
+	pod 'EGOCache', '~>2.0'
+	pod 'MBProgressHUD', '~>0.6'
+	pod 'SDWebImage', '~>2.7'
+	pod 'CocoaLumberjack', '~>1.6'
+	pod 'AFNetworking', '~>1.1'
+	pod 'Reachability', '~>3.1' 
+
+end
+
+target 'Hi-Baochuan' do 
+    platform :ios, '5.0'
+	xcodeproj 'Hi-Baochuan.xcodeproj'
+    pod 'PonyDebugger'
+
+end
